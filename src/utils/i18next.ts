@@ -15,7 +15,7 @@ i18n
       en: {
         translation: {
           home: {
-            description: 'Hello! Welcome to my portfolio! Below we have external links and above we have website sections',
+            description: 'Hello! Welcome to my portfolio! See below links to external web sites and see above the website sections',
           },
           navbar: {
             home: 'Home',
@@ -24,35 +24,35 @@ i18n
           },
           projects: {
             timerDescription: "This project is a timer designed to let you easily count how long you've been doing a given task.",
-            rocketFoodDescription: 'This projects is a web store for food.',
+            rocketFoodDescription: 'This projects is is an on-line food store.',
             customCountdownDescription: 'This project counts down to a date inserted by the user.',
             spaceCreamDescription: 'This projects is a basic static website for an ice cream store.'
           },
           aboutMe:{
             description:"I'm a developer in constant development. My talents are many. I know react, typescript, node.js , html , css and javascript. I have over a year of experience  in software engineering as a full stack developer.",
-            description2:"I'm always looking for growth, both personal and profesional. After all, the only limits in life are the ones in impose on yourself!"
+            description2:"I'm always looking for growth, both personal and profesional. After all, the only limits in life are the ones you impose on yourself!"
           }
         }
       },
       es: {
         translation: {
           home: {
-            description: 'Hola! bien venido a my portfolio! Abajo tenemos links externos y ariba tenemos seccions de lo websitio.',
+            description: 'Hola! bien venido a my portfolio! Abajo se tiene los enlaces externos, y arriba se tiene las secciones de la pagina web..',
           },
           navbar: {
             home: 'Home',
-            about: 'Sobre yo',
-            projects: 'Projectos'
+            about: 'Sobre mi',
+            projects: 'Proyectos'
           },
           projects: {
-            timerDescription: 'Este Projecto eres un timer que puede facilmente contar el tiempo de una actividad usted',
-            rocketFoodDescription: 'Este Projceto eres una tienda de comida para websitio',
-            customCountdownDescription: 'Este projecto lo hace posible ver quanto tiempo falta para una certa fecha',
-            spaceCreamDescription: 'Este projecto eres una pagina básica de una tienda de helados.',
+            timerDescription: 'Este proyecto es un timer que puede facilmente contar el tiempo de una actividad usted',
+            rocketFoodDescription: 'Este proyecto es una tienda de comida para la web.',
+            customCountdownDescription: 'Este proyecto possibilita ver cuanto tiempo queda para una fecha que se puede elegir.',
+            spaceCreamDescription: 'Este proyecto es una pagina básica de una tienda de helados.',
           },
           aboutMe:{
             description:"Soy un desarrolador en desarrollo. Mis talentos son muchos. Yo sé react, typescript, node.js , html , css , javascript. Tengo mas de un año de experiencia en desarrollo de software como un desarrollador fullstack.",
-            description2:"Estoy siempre buscando crescimento, tanto personal cuanto profesional. Los únicos límites que existen en tu vida son los que te impones tú mismo!"
+            description2:"Estoy siempre buscando crescimento, tanto personal cuanto profesional. Los únicos límites que existen en tu vida son los que te impontes a ti mismo!"
           }
         }
       },
