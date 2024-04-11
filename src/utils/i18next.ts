@@ -15,7 +15,9 @@ i18n
       en: {
         translation: {
           home: {
-            description: 'Hello! Welcome to my portfolio! See below links to external web sites and see above the website sections',
+            description: 'Hello! Welcome to my portfolio! See below links to external web sites and see above the website sections.',
+            description2: 'To contact me send me an email at felipefortescastro@gmail.com.',
+
           },
           navbar: {
             home: 'Home',
@@ -37,7 +39,8 @@ i18n
       es: {
         translation: {
           home: {
-            description: 'Hola! bien venido a my portfolio! Abajo se tiene los enlaces externos, y arriba se tiene las secciones de la pagina web..',
+            description: 'Hola! bien venido a my portfolio! Abajo se tiene los enlaces externos, y arriba se tiene las secciones de la pagina web.',
+            description2: 'Para contactar conmigo envía un correo electrónico a felipefortescastro@gmail.com.',
           },
           navbar: {
             home: 'Home',
@@ -59,7 +62,8 @@ i18n
       pt: {
         translation: {
           home: {
-            description: 'Ola! Bem vindo a meu portfolio! Abaixo temos links externos e acima temos seções do site',
+            description: 'Ola! Bem vindo a meu portfolio! Abaixo temos links externos e acima temos seções do site.',
+            description2: 'Para me contactar mande um email para felipefortescastro@gmail.com.',
           },
           navbar: {
             home: 'Home',
