@@ -1,24 +1,24 @@
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
 import englishFlag from '../assets/ukflag.svg'
 import spanishFlag from '../assets/esflag.svg'
 import brazilianFlag from '../assets/brflag.svg'
+import LinkComponent from './Link';
 
 
 export default function NavBar() {
-  const { t,i18n } = useTranslation()
+  const { t, i18n } = useTranslation()
   return (
-    <nav className='w-full min-h-[90px] h-[10%] md:h-[10vh] flex justify-between items-center bg-[#A491D3] px-5'>
+    <nav className='w-full min-h-[90px] h-[10%] md:h-[10vh] flex justify-between items-center bg-[#222222] px-5'>
       <h1 className='w-[400px] ' ></h1>
       <ul className='w-full flex  justify-center items-center gap-6 '>
         <li>
-          <Link to="/"> {t("navbar.home")} </Link>
+          <LinkComponent text={t("navbar.home")} link='/' />
         </li>
         <li>
-          <Link to="/about"> {t("navbar.about")}</Link>
+          <LinkComponent text={t("navbar.about")} link="/about" />
         </li>
         <li>
-          <Link to="/projects"> {t("navbar.projects")}</Link>
+          <LinkComponent text={t("navbar.projects")} link="/projects" />
         </li>
       </ul>
       <div className='flex w-[400px] gap-5'>

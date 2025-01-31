@@ -5,7 +5,7 @@ export default function AboutPage() {
   const { t } = useTranslation()
   return (
     <Layout>
-      <h1 className="px-4 max-w-[600px]">
+      <h1 className="px-4 max-w-[600px]  text-white">
         {t("aboutMe.description")}
         <br /><br />
         {t("aboutMe.description2")}

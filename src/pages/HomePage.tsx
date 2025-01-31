@@ -9,8 +9,8 @@ export default function HomePage() {
         <Layout>
 
             <section className="w-full min-h-[90%] flex flex-col justify-center items-center gap-4">
-                <h1> {t('home.description')} </h1>
-                <h1> {t('home.description2')} </h1>
+                <h1 className=" text-white"> {t('home.description')} </h1>
+                <h1 className=" text-white"> {t('home.description2')}   <span className="underline">felipefortescastro@gmail.com.</span></h1>
                 <ul className="flex gap-4">
                     <Link target="_blank" to={'https://github.com/Luiz-Felipe-Castro-dev'}> <img className="w-16" src={githubIcon} alt="" /> </Link>
                     <Link target="_blank" to={'https://www.linkedin.com/in/devluizcastro'}> <img className="w-16" src={linkedInIcon} alt="" /> </Link>

@@ -26,14 +26,14 @@ export default function ProjectsPage() {
 function Card({ image, title, description, link }: { image: string, title: string, description: string, link: string }) {
   return (
     <section className="flex flex-col gap-4 justify-center items-center w-[300px] md:w-[300px] h-[300px]">
-      <h1> {title} </h1>
+      <h1 className="text-3xl text-white"> {title} </h1>
       <div className="w-[300px]  md:w-[300px]">
         <a target="_blank" href={link}>
 
           <img className="object-cover" src={image} alt="" />
         </a>
       </div>
-      <p className="max-w-[200px] h-[120px]"> {description} </p>
+      <p className="max-w-[200px] h-[120px]  text-white"> {description} </p>
     </section>
   )
 }

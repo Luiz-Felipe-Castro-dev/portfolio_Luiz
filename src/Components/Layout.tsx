@@ -4,7 +4,7 @@ export default function Layout({ children }: { children: React.ReactNode | React
     return (
         <div className='h-[100%]  md:h-screen'>
             <NavBar/>
-            <div className='min-h-[90vh] bg-[#C5DCA0] w-full h-fit flex flex-col justify-center items-center gap-4 py-[32px] md:p-[50px] '>
+            <div className='min-h-[90vh] bg-[#333333] w-full h-fit flex flex-col justify-center items-center gap-4 py-[32px] md:p-[50px] '>
                 {children}
             </div>
         </div>
