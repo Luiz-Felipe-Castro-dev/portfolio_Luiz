@@ -25,7 +25,7 @@ export default function ProjectsPage() {
 
 function Card({ image, title, description, link }: { image: string, title: string, description: string, link: string }) {
   return (
-    <section className="flex flex-col gap-4 justify-center items-center w-[300px] md:w-[300px] h-[300px]">
+    <section className="flex flex-col gap-4 justify-stretch items-center w-[300px] md:w-[300px] h-[300px]">
       <h1 className="text-3xl text-white"> {title} </h1>
       <div className="w-[300px]  md:w-[300px]">
         <a target="_blank" href={link}>
